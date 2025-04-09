@@ -1,0 +1,5 @@
+.App {
+  background-color: rgb(244, 243, 248); /* Set the entire page background to black */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  color: rgb(115, 1, 1);/* Set the default text color to white */
+}

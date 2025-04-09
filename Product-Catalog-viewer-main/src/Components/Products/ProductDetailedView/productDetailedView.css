@@ -1,0 +1,106 @@
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: hsl(0, 98%, 17%);
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.product-detail-container {
+  display: flex;
+  margin: 20px;
+}
+
+.product-image {
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 18px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-stock {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-brand,
+.product-sku,
+.product-weight,
+.product-dimensions,
+.product-warranty,
+.product-shipping,
+.product-availability,
+.product-return-policy,
+.product-minimum-order {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.product-reviews {
+  margin-top: 20px;
+}
+
+.review {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.review-rating {
+  font-weight: bold;
+}
+
+.review-comment {
+  margin-bottom: 10px;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.review-name {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.loader {
+  position: fixed;
+  top : 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+  font-size: 34px;
+}
